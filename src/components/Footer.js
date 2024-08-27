@@ -8,7 +8,7 @@ function Footer() {
       </div>
 
       <footer className="bg-white p-10">
-        <div className="mx-auto max-w-screen-2xl w-full bg-[#faf3e3] border-8 border-[#291747] rounded-lg p-12 shadow-lg">
+        <div className="mx-auto max-w-screen-4xl w-full bg-[#faf3e3] border-8 border-[#291747] rounded-lg p-12 shadow-lg">
           {/* Ensures the container spans full width */}
           <hr className="border-[#291747] border-2 mb-10" /> {/* Made border inside the hr element thicker */}
           <div className="flex justify-between text-[#291747]">
@@ -119,10 +119,10 @@ function Footer() {
               </div>
 
               {/* Currency Selector */}
-              <div className="flex items-center space-x-2">
+              {/* <div className="flex items-center space-x-2">
                 <img src="../dolla.png" alt="Currency" className="w-5 h-5" />
                 <span>USD</span>
-              </div>
+              </div> */}
 
               {/* Accessibility Icon
               <img src="/img/accessibility.png" alt="Accessibility" className="w-6 h-6" /> */}
