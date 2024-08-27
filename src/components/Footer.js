@@ -7,8 +7,8 @@ function Footer() {
         {/* Main content goes here */}
       </div>
 
-      <footer className="bg-white p-10">
-        <div className="mx-auto max-w-screen-4xl w-full bg-[#faf3e3] border-8 border-[#291747] rounded-lg p-12 shadow-lg">
+      <footer className="bg[#faf9f9] p-10">
+        <div className="mx-auto max-w-screen-4xl w-full bg-[#faf3e3] border-8 border-[#291747] rounded-lg p-12 shadow-lg ">
           {/* Ensures the container spans full width */}
           <hr className="border-[#291747] border-2 mb-10" /> {/* Made border inside the hr element thicker */}
           <div className="flex justify-between text-[#291747]">
@@ -75,7 +75,7 @@ function Footer() {
 
             {/* More From Fiverr Section */}
             <div className="space-y-4 w-1/5">
-              <h2 className="font-bold text-lg">More From Fiverr</h2>
+              <h2 className="font-bold text-lg ">More From Fiverr</h2>
               <div className="space-y-1">
                 <p>Fiverr Business</p>
                 <p>Fiverr Pro</p>
@@ -91,7 +91,7 @@ function Footer() {
             </div>
           </div>
 
-          <hr className="border-[#291747] border-2 mt-10 mb-5" /> {/* Made border inside the hr element thicker */}
+          <hr className="border-[#291747] border-2 mt-32 mb-5" /> {/* Made border inside the hr element thicker */}
 
           {/* Footer Bottom Section */}
           <div className="flex justify-between items-center text-[#291747]">
