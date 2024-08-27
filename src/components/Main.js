@@ -1,7 +1,17 @@
-
+import About from "./About"
+import Footer from "./Footer"
+import Faq from "./Faq"
+import Home from "./Home"
+import Team from "./Team"
 const Main = () => {
   return (
-    <div className="text-3xl font-bold underline">Main</div>
+    <div className="Main">
+        <Home />
+        <About />
+        <Team />
+        <Faq />
+        <Footer />
+    </div>
   )
 }
 
