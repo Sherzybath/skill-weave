@@ -11,22 +11,22 @@ const SignUp = ({ pare }) => {
         </div>
         <form id="form1" className="forms" action="/rilli_signUp" method="post">
           <div className="heading">
-            <h3>Sign in to Rilli</h3>
+            <span>Sign in to skillWeave</span>
           </div>
           <div className="enroll columner">
-            <h3>Enter your enrollment id</h3>
+            <h3>Username</h3>
 
             <div className="spacer"></div>
             <input
               type="text"
               name="enrollment_id"
-              placeholder="Enrollment ID"
+              placeholder="TommyJZ"
             />
           </div>
           <div className="enroll columner">
-            <h3>Enter your Batch</h3>
+            <h3>Email Address</h3>
             <div className="spacer"></div>
-            <input type="text" name="batch" placeholder="BXX" />
+            <input type="text" name="batch" placeholder="something@gmail.com" />
           </div>
           <div className="password columner">
             <h3>Password</h3>

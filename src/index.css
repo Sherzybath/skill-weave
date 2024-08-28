@@ -28,6 +28,10 @@
   background-color: #d3d3d3;
   padding: 20px 50px;
   align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
 }
 .App .NavBar .NavLeft{
   display: flex;
@@ -134,7 +138,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 40vw;
+  width: 35vw;
   height: 90vh;
   background-color: #d1cfc8;
   position: absolute;
@@ -189,37 +193,37 @@
   flex-grow: 1;
   padding-top: 3vw;
   padding-bottom: 0vw;
-  gap: 10px;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  gap: 2vw;
 }
 
-.forms .heading {
-  width: 100%;
-  padding-left: 67px;
-}
-.forms .heading h3 {
+.forms .heading span {
   color: var(--tertiary-color);
   /* color: #fff; */
-  font-size: 70px;
+  font-size: 3vw;
   font-weight: 800;
+  text-align: center;
 }
 .forms input {
   color: var(--tertiary-color);
-  width: 570px;
-  height: 46px;
-  font-size: 26px;
+  width: 25vw;
+  height: 2vw;
+  font-size: 1vw;
   font-weight: 500;
   border-radius: 4px;
   border-radius: 10px;
+  padding: 0.5vw;
 }
 
 .confirm .submit {
-  background-color: #9c28b1;
+  background-color: #130035;
   border-radius: 14px;
   text-align: center;
-  width: 300px;
-  height: 60px;
+  width: 15vw;
+  height: 3.5vw;
   color: white;
-  font-size: 20px;
+  font-size: 1vw;
 }
 
 .enroll input {
@@ -230,11 +234,13 @@
   background-color: #f1e5f2;
 }
 
-#form1 h4 {
-  color: var(--tertiary-color);
-  font-weight: 800;
-  font-size: 17px;
+
+
+.myDiv .liner{
+  display: flex;
+  flex-direction: row;
 }
+
 .myDiv .liner h5 {
   margin-top: 0;
   font-size: 16px;

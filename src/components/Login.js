@@ -11,15 +11,15 @@ const Login = ({ pare }) => {
         </div>
         <form id="form2" className="forms" action="/rilli_Login?" method="post">
           <div className="heading">
-            <h3>Login to Rilli</h3>
+            <span>Login to skillWeave</span>
           </div>
           <div className="enroll">
-            <h3>Enter your enrollment id</h3>
+            <h3>Username</h3>
             <div className="spacer"></div>
             <input
               type="text"
               name="enroll"
-              placeholder="Enrollment ID"
+              placeholder="Sherzybath"
               required
             />
           </div>
